@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+  }
+
+  div {
+    border: 2px solid black;
+  }
